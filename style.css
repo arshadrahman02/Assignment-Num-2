@@ -198,6 +198,21 @@ nav ul li a {
     top: 200px;
 }
 
+
+.btn2{
+    position: absolute;
+    left: 525px;
+    top: 320px;
+    font-weight: 550;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FF900E;
+    border: none;
+    height: 30px;
+    width: 80px;
+}
+
 /* ____________2nd Section___________ */
 
 
@@ -308,7 +323,7 @@ nav ul li a {
     width: 300px;
 }
 
-.btn2{
+.btn3{
     position: absolute;
     left: 505px;
     top: 1900px;
@@ -592,4 +607,194 @@ nav ul li a {
     position: absolute;
     left: 200px;
     top: 30px;
+}
+
+/* ____________________MEDIA SCREEN/RESPONSIVE______________________ */
+
+
+@media screen and (min-width:100px) and (max-width:576px) {
+
+
+    .header {
+        position: absolute;
+        width: 80%;
+        height: 650px;
+        left: 0px;
+        top: 0px;
+        background: rgba(245, 155, 14, 0.14);
+    }
+
+    .header-title {
+        position: absolute;
+        left: 5px;
+        top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    nav ul {
+        display: flex;
+        position: absolute;
+        top: 55px;
+        left: 10px;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .nav-banner {
+        position: absolute;
+        top: 230px;
+        font-weight: 700;
+        font-size: 25px;
+        left: 100px;
+    }
+
+    .nav-banner1 {
+        position: absolute;
+        left: 72px;
+        top: 270px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .nav-banner2 {
+        position: absolute;
+        top: 300px;
+        font-weight: 400;
+        font-size: 7px;
+        width: 200px;
+        left: 80px;
+    }
+
+    .nav-banner3 {
+        position: absolute;
+        left: 80px;
+        top: 317px;
+        font-weight: 400;
+        font-size: 7px;
+        width: 200px;
+    }
+
+    .btn {
+        position: absolute;
+        font-weight: 550;
+        left: 150px;
+        top: 330px;
+        font-size: 10px;
+        color: white;
+        border-radius: 5px;
+        background-color: #FF900E;
+        border: none;
+        height: 30px;
+        width: 60PX;
+    }
+    
+
+    .header-img {
+        position: absolute;
+        width: 250px;
+        height: 200px;
+        left: 40px;
+        top: 400px;
+    }
+    .section-head {
+        position: absolute;
+        top: 700px;
+        left: 50px;
+    }
+
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 30%;
+        height: 30%;
+        gap: 8px;
+    }
+
+    .short-1 {
+        position: absolute;
+        font-weight: 500;
+        font-size: 15px;
+        color: #727272;
+        top: 850px;
+        left: 0px;
+        width: 300px;
+    }
+
+    .short-2 {
+        position: absolute;
+        left: 70px;
+        font-weight: 700;
+        font-size: 16px;
+        color: black;
+        top: 850px;
+        width: 300px;
+    }
+    .short-3 {
+        position: absolute;
+        left: 0px;
+        font-weight: 650;
+        font-size: 18px;
+        color: #FF900E;
+        top: 870px;
+    }
+    .short-4 {
+        /* position: absolute; */
+        /* font-size: 15px; */
+        /* width: 300px; */
+        /* font-weight: 500; */
+        /* color: #727272; */
+        /* left: 480px; */
+        /* top: 200px; */
+    }
+
+
+
+    .btn2 {
+        position: absolute;
+        left: 0px;
+        top: 900px;
+        font-weight: 550;
+        font-size: 10px;
+        color: white;
+        border-radius: 5px;
+        background-color: #FF900E;
+        border: none;
+        height: 30px;
+        width: 80px;
+    }
+    .feature-img {
+        position: absolute;
+        width: 250px;
+        height: 400px;
+        top: 1700px;
+        left: 45px;
+        border-radius: 3px;
+    }
+
+    .feature-head1 {
+        position: absolute;
+        top: 2110px;
+        left: 45px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .feature-para1 {
+        position: absolute;
+        top: 2160px;
+        left: 40px;
+        font-size: 11px;
+        font-weight: 500;
+        color: #727272;
+        width: 200px;
+    }
+
+    .feature-head2 {
+        position: absolute;
+        top: 2230px;
+        left: 35px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+
 }
