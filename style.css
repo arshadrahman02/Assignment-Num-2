@@ -40,7 +40,7 @@ body {
     position: absolute;
     width: 900px;
     height: 450px;
-    left: 230px;
+    left: 130px;
     top: 400px;
 
 
@@ -72,7 +72,7 @@ nav ul li a {
 
 .nav-banner {
     position: absolute;
-    left: 560px;
+    left: 460px;
     top: 140px;
     font-weight: 700;
     font-size: 40px;
@@ -83,7 +83,7 @@ nav ul li a {
 
 .nav-banner1 {
     position: absolute;
-    left: 480px;
+    left: 380px;
     top: 195px;
     font-weight: 700;
     font-size: 40px;
@@ -92,7 +92,7 @@ nav ul li a {
 
 .nav-banner2 {
     position: absolute;
-    left: 435px;
+    left: 335px;
     top: 260px;
     font-weight: 400;
     font-size: 10px;
@@ -101,7 +101,7 @@ nav ul li a {
 
 .nav-banner3 {
     position: absolute;
-    left: 510px;
+    left: 410px;
     top: 285px;
     font-weight: 400;
     font-size: 10px;
@@ -110,7 +110,7 @@ nav ul li a {
 
 .btn {
     position: absolute;
-    left: 625px;
+    left: 525px;
     top: 320px;
     font-weight: 550;
     font-size: 10px;
